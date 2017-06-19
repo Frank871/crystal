@@ -1,7 +1,13 @@
 body {
     
 	background-image: url("../images/gem-background.jpg");
-	
+	max-width: 960px;
+	overflow: auto;
+	margin: 0;
+	padding: 0px;
+	font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 .main-container {
@@ -214,10 +220,15 @@ left: 200px;
 
 @media screen and (max-width:640px) {
 
-.main-container {
+body {
+
 	max-width: 640px;
 	overflow: auto;
-	margin: auto;
+	margin: 0;
+	padding: 0px;
+	font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 
