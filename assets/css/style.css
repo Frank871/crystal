@@ -3,6 +3,9 @@ body {
 	background-image: url("../images/gem-background.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
+	margin: 0;
+    padding:0;
+    height: 100%;
 	
 }
 
