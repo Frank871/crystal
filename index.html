@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<title>Crystals!</title>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 class="text-center1">Crystal Collector</h1>
+    <h2 class="text-center2">Instructions: <br> <br> You win if your total score matches the random number
+      from the beginning of the game.</h2>
+      <br>
+     <h2 class="text-center2">You lose if the score goes above the random number. Now CLICK on a crystal to start!</h2>
+
+     
+     <div class="random_num">
+        <p> Target Score: <span id="target-score"></span></p>
+     </div>
+
+      <div class="win_loss">
+        <p>Wins: <span id="win-count">0</span></p>
+        <br>
+        <br>
+        <p>Losses: <span id="loss-count">0</span></p>
+      </div>
+
+      <div class="thescore">
+        <p>Your total score is: <span id="your-score"></span></p>
+      </div>
+      <div class="Crystals">
+              <img src="assets/images/blue_gem.png" alt="" id="blue">
+              <img src="assets/images/green_gem.png" alt="" id="green">
+              <img src="assets/images/red_gem.png" alt="" id="red">
+              <img src="assets/images/white_gem.png" alt="" id="white">
+       </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
