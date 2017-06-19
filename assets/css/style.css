@@ -212,16 +212,15 @@ left: 200px;
 }
 
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:618px) {
 
 body {
 
-	max-width: 640px;
+	max-width: 618px;
 	overflow: auto;
 	margin: 0;
 	padding: 0px;
 	font-size: 100%;
-    vertical-align: baseline;
    
 }
 
@@ -229,54 +228,54 @@ body {
 .text-center2 {
 	position: relative;
 	top: 25px;
-	left: 20px;
-	font-size: 16px;
+    font-size: 13px;
 	
   }
 
   .random_num {
 	position: relative;
-	left: 20px;
-	top: 50px;
+	left: 10px;
+	padding: 10px;
+	
 }
 
 .thescore {
     position: relative;
-    top:  -330px;
-	left: 230px;
+	left: 200px;
+	top: -160px;
+	padding: 10px;
 }
 
 .win_loss{
-    
-	position: relative;
-	left: 440px;
-	top: -123px;
-	
+    position: relative;
+	left: 400px;
+	top: -10px;
+	padding: 10px;
 }
 
 
 #blue{
 	position: relative;
-	bottom: 250px;
-	left: 60px;
+	bottom: 100px;
+	left: 20px;
 }
 
 #green{
 position: relative;
-bottom: 250px;
-left:  100px;
+bottom: 100px;
+left:  40px;
 }
 
 #red{
 position: relative;
-bottom: 239px;
-left:  140px;
+bottom: 100px;
+left:  42px;
 }
 
 #white{
 position: relative;
-bottom: 250px;	
-left: 200px;
+bottom: 90px;	
+left: 50px;
 
 }
 
