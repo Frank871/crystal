@@ -4,7 +4,11 @@ body {
 	
 }
 
-
+.main-container {
+	max-width: 960px;
+	overflow: auto;
+	margin: auto;
+}
 
 .text-center1 {
 font-family: 'Audiowide', cursive;
@@ -146,6 +150,13 @@ left: 336px;
 
 @media screen and (max-width:768px) {
 
+
+.main-container {
+	max-width: 768px;
+	overflow: auto;
+	margin: auto;
+}
+
  .text-center2 {
 	position: relative;
 	top: 25px;
@@ -202,6 +213,13 @@ left: 200px;
 
 
 @media screen and (max-width:640px) {
+
+.main-container {
+	max-width: 640px;
+	overflow: auto;
+	margin: auto;
+}
+
 
 .text-center2 {
 	position: relative;
